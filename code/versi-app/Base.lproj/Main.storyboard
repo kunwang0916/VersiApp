@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Trending FeedVC-->
+        <!--Trending-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="TrendingFeedVC" customModule="Versi" customModuleProvider="target" sceneMemberID="viewController">
@@ -17,7 +17,7 @@
                         <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="mostViewed" id="ver-wy-LJs"/>
+                    <tabBarItem key="tabBarItem" title="Trending" image="trendingIcon" selectedImage="trendingIcon" id="ver-wy-LJs"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -41,7 +41,7 @@
             </objects>
             <point key="canvasLocation" x="131.8840579710145" y="137.94642857142856"/>
         </scene>
-        <!--SearchVC-->
+        <!--Search-->
         <scene sceneID="GZJ-Oo-HJU">
             <objects>
                 <viewController id="hag-KW-2FS" customClass="SearchVC" customModule="Versi" customModuleProvider="target" sceneMemberID="viewController">
@@ -51,11 +51,15 @@
                         <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="QWs-3k-Jiv"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="search" id="iK3-hg-gN0"/>
+                    <tabBarItem key="tabBarItem" title="Search" image="searchIconSmall" selectedImage="searchIconSmall" id="iK3-hg-gN0"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cc8-WG-6tC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1067" y="496"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="searchIconSmall" width="40" height="40"/>
+        <image name="trendingIcon" width="38" height="35"/>
+    </resources>
 </document>
